@@ -1,0 +1,68 @@
+header{
+    background-color: rgb(94, 145, 177);
+    padding: 1mm;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Arial', serif;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 1mm;
+    color: black;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Arial', serif;
+}
+
+footer{
+    background-color: rgb(25, 0, 105);
+    padding: 1mm;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Arial', serif;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+}
+
+th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.bbdd{background-color: rgb(21, 255, 0);}
+.si{background-color: brown;}
+.llmm{background-color: rgb(255, 0, 89);}
+.ipe{background-color: rgb(255, 153, 0);}
+.prog{background-color: rgb(0, 58, 185);}
+.ed{background-color: rgb(182, 81, 3);}
+.ingles{background-color: rgb(255, 0, 85);}
+.pi{background-color: rgb(32, 138, 0);}
+.dig{background-color: rgb(0, 166, 255);}
+.sos{background-color: yellow;}
+.recreo{background-color: white;}
+.lunes{background-color: rgb(255, 0, 0);}
+.martes{background-color: rgb(0, 26, 255);}
+.miercoles{background-color: rgb(2, 164, 34);}
+.jueves{background-color: rgb(255, 191, 0);}
+.viernes{background-color: rgb(255, 36, 142);}
+.hora{background-color: rgb(46, 194, 85);}
+.recreo{background-color: rgb(103, 39, 205);}

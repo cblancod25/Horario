@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <!--HEADER (ENCABEZADO)-->
+        <header>
+                <h1>Mi primera WEB de Lenguajes de Marcas</h1>
+                <h2>Menu:</h2>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="Horario.html">Horario</a>
+                    <a href="formulario.html">Formulario</a>
+                </nav>
+        </header>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend><h2>Formulario de contacto</h2></legend>
+                        <label for="nombre">Nombre*</label> <!--Este es el texto "Nombre"-->
+                        <input type="text" id="nombre" name="nombre" required /> <!--Esta es la caja-->
+                        <label for="contraseña">Contraseña*</label>
+                        <input type="password" id="contraseña" name="contraseña" required />
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required />
+                        <label for="telefono">Teléfono*</label>
+                        <input type="tel" id="telefono" name="telefono" required/>
+                        <label for="website">Página web</label>
+                        <input type="url" id="website" name="website" />
+                        <label for="text">Buscar</label>
+                        <input type="search" id="text" name="text" />
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Fechas y horas</h2></legend>
+                        <label for="fecha">Fecha*</label>
+                        <input type="date" id="fecha" name="fecha" required />
+                        <label for="hora">Hora*</label>
+                        <input type="time" id="hora" name="hora" required />
+                        <label for="fecha y hora">Fecha y hora*</label>
+                        <input type="datetime-local" id="fecha y hora" name="fecha y hora" required />
+                        <label for="mes">Mes*</label>
+                        <input type="month" id="mes" name="mes" required />
+                        <label for="semana">Semana*</label>
+                        <input type="week" id="semana" name="semana" required />
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Valores numéricos</h2></legend>
+                        <label for="edad">Edad*</label>
+                        <input type="number" id="edad" name="edad" min="0" max="120" required />
+                        <label for="rango">Nivel</label>
+                        <input type="range" id="rango" name="rango" min="0" max="100"/>
+                        <label for="color">Color favorito</label>
+                        <input type="color" id="color" name="color"/>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Opciones</h2></legend>
+                        <p>Elige una opción*</p>
+                        <input type="radio" id="opcion1" name="opciones" value="opcion1" required/>
+                        <label for="opcion1">Ciencias</label>
+                        <br>
+                        <input type="radio" id="opcion2" name="opciones" value="opcion2" required />
+                        <label for="opcion2">Letras</label>
+                        <br>
+                        <input type="radio" id="opcion3" name="opciones" value ="opcion3" required/>
+                        <label for="opcion3">Arte</label>
+                        
+                        <p>Elige tus aficiones</p>
+                        <input type="checkbox" id="aficion1" name="aficiones" value="aficion1" />
+                        <label for="aficion1">Deportes</label>
+                        <br>
+                        <input type="checkbox" id="aficion2" name="aficiones" value="aficion2" />
+                        <label for="aficion2">Música</label>
+                        <br>
+                        <input type="checkbox" id="aficion3" name="aficiones" value="aficion3" />
+                        <label for="aficion3">Lectura</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Listas</h2></legend>
+                        <label for="provincia">Provincia*</label>
+                        <select id="provincia" name="provincia" required>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="Ciudad Real">Ciudad Real</option>
+                            <option value="Toledo">Toledo</option>
+                            <option value="Cuenca">Cuenca</option>
+                            <option value="Guadalajara">Guadalajara</option>
+                            <option value="Albacete">Albacete</option>
+                        </select>
+                        <label for="estudios">Estudios*</label>
+                        <select id="estudios" name="estudios" required>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <optgroup label="Informática">
+                                <option value="DAM">DAM</option>
+                                <option value="DAW">DAW</option>
+                                <option value="ASIR">ASIR</option>
+                            </optgroup>
+                            <optgroup label="Electrónica">
+                                <option value="teleco">Telecomunicaciones</option>
+                                <option value="electronica">Electrónica</option>
+                            </optgroup>
+                        </select>
+                        <label for="lenguajes">Lenguajes favoritos</label>
+                        <select id="lenguajes" name="lenguajes" multiple size="5">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Java">Java</option>
+                            <option value="C++">C++</option>
+                        </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Otros elementos</h2></legend>
+                        <label for="archivo">Subir archivo</label>
+                        <input type="file" id="archivo" name="archivo" />
+                        <label for="navegador">Navegador favorito</label>
+                        <input list="navegadores" id="navegador" name="navegador" />
+                        <datalist id="navegadores">
+                            <option value="Google Chrome">
+                            <option value="Mozilla Firefox">
+                            <option value="Microsoft Edge">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Comentarios</h2></legend>
+                        <label for="comentarios">Escribe tus comentarios</label>
+                        <br>
+                        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Botones</h2></legend>
+                        <input type="submit" value="Enviar" />
+                        <input type="reset" value="Borrar" />
+                </fieldset>
+
+            </form>
+        </main>
+        
+        <!--FOOTER (PIE DE PÁGINA)-->
+        <footer>
+            <p>CIFP Virgen de Gracia</p>
+            <p>
+                Contacto:
+                <a href="cbdelgado03@gmail.com">cbdelgado03@gmail.com</a>
+            </p>
+        </footer>
+    </body>
+</html>
