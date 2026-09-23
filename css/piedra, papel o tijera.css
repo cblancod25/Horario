@@ -1,0 +1,52 @@
+header {
+    background-color: rgb(94, 145, 177);
+    padding: 1mm;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Arial', serif;
+}
+
+footer {
+    background-color: rgb(25, 0, 105);
+    padding: 1mm;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Arial', serif;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+main h1 {
+  color: white;
+  background-color: green;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+button {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  margin: 1px;
+}
+
+.marcador {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.marcador p {
+  margin: 0;
+  padding: 4px;
+}
+
+#mensaje {
+  color: white;
+  background-color: blue;
+  border-style: solid;
+  border-radius: 10px;
+}

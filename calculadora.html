@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora simple</title>
+        <link rel="stylesheet" href="css/calculadora.css">
+        <script src="js/calculadora.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Mi primera WEB de LLMM</h1>
+			<h2>Menu:</h2>
+            	<nav>
+              		<a href="index.html">Inicio</a>
+              		<a href="horario.html">Horario</a>
+              		<a href="formulario.html">Formulario</a>
+                    <a href="calculadora.html">Calculadora</a>
+                    <a href="piedra, papel o tijera.html">Juego</a>
+           		</nav>
+        </header>
+
+        <main>
+            <h4>Introduce <mark>números</mark> y <mark>operaciones</mark></h4>
+            <table class="teclado">
+                <thead>
+                    <td colspan="4">
+                        <input type="text" id="pantalla" readonly>
+                    </td>
+                </thead>
+
+                <tr>
+                    <td><button onclick="escribir(7)">7</button></td>
+                    <td><button onclick="escribir(8)">8</button></td>
+                    <td><button onclick="escribir(9)">9</button></td>
+                    <td><button onclick="escribir('/')" class="btn_dividir">/</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="escribir(4)">4</button></td>
+                    <td><button onclick="escribir(5)">5</button></td>
+                    <td><button onclick="escribir(6)">6</button></td>
+                    <td><button onclick="escribir('*')" class="btn_multiplicar">x</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="escribir(1)">1</button></td>
+                    <td><button onclick="escribir(2)">2</button></td>
+                    <td><button onclick="escribir(3)">3</button></td>
+                    <td><button onclick="escribir('-')" class="btn_restar">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="escribir(0)">0</button></td>
+                    <td><button onclick="escribir('.')" class="btn_coma">,</button></td>
+                    <td><button onclick="resolver()" class="btn_igual">=</button></td>
+                    <td><button onclick="escribir('+')" class="btn_sumar">+</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><button onclick="borrar()" class="btn_borrar">C</button></td>
+                </tr>
+            </table>
+
+            <figure>
+                <img src="img/calculadora.jpg" alt="Calculadora">
+            </figure>
+
+        </main>
+
+        <footer>
+            <p>CIFP Virgen de Gracia</p>
+            <p>
+                Contacto:
+                <a href="cbdelgado03@gmail.com">cbdelgado03@gmail.com</a>
+            </p>
+        </footer>
+
+</html>

@@ -1,0 +1,61 @@
+header {
+  background-color: rgb(94, 145, 177);
+    padding: 1mm;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Arial', serif;
+}
+
+footer {
+    background-color: rgb(25, 0, 105);
+    padding: 1mm;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Arial', serif;
+}
+
+main {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: purple;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
+
+.btn_sumar {
+  background-color: green;
+}
+
+.btn_restar {
+  background-color: red;
+}
+
+.btn_multiplicar {
+  background-color: blue;
+}
+
+.btn_dividir {
+  background-color: orange;
+}
+
+.btn_coma {
+  background-color: rgb(147, 147, 10);
+  color: black;
+}
+
+.btn_igual {
+  background-color: rgb(14, 228, 175);
+  color: black;
+}
+
+.btn_borrar {
+  background-color: yellow;
+  color: black;
+}
+
+figure {
+  text-align: center;
+}
