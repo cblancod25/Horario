@@ -1,0 +1,6 @@
+[submodule "actividad-1"]
+	path = actividad-1
+	url = https://github.com/cblancod25/actividad-1.git
+[submodule "actividad-2"]
+	path = actividad-2
+	url = https://github.com/cblancod25/actividad-2.git
